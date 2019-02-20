@@ -1,0 +1,493 @@
+/* header */
+.navbar-skybooker {
+  background: #fff;
+  color: #333;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(102, 102, 102, 0.4);
+          box-shadow: 0 3px 3px 0 rgba(102, 102, 102, 0.4);
+}
+
+.navbar-skybooker a {
+  color: #747373;
+  font-weight: 500;
+}
+
+.navbar-skybooker a:hover {
+  color: #333;
+}
+
+img.skybooker_logo {
+  max-width: 50%;
+}
+
+.skybooker-collpase {
+  display: inline-block;
+  width: 100%;
+}
+
+.skybooker-collpase ul {
+  width: auto;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.skybooker-collpase ul li {
+  list-style-type: none;
+  float: left;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item.callBook {
+  margin-top: 8%;
+}
+
+li.nav-item.callBook a {
+  border-radius: 3px;
+  color: #747373;
+  border: 1px solid #0061a5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px;
+}
+
+.dropdown-menu {
+  border: 0px;
+}
+
+.mega-dropdown {
+  position: static;
+}
+
+.skybooker-nav-right .mega-dropdown {
+  position: relative;
+}
+
+#overlay.show {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+ul.skybooker-nav-left,
+ul.skybooker-nav-right {
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+ul.skybooker-nav-left li,
+ul.skybooker-nav-right li {
+  display: inline-block;
+}
+
+.fa-chevron-down {
+  color: #2196f3;
+  font-size: 0.8rem;
+}
+
+.linear {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.skybooker-nav-left {
+  float: left;
+  padding: 0px;
+  font-size: 17px;
+  margin-left: -55%;
+}
+
+.skybooker-nav-right {
+  float: right;
+  padding: 0px;
+}
+
+/* student banner starts */
+#travel-banner {
+  background-color: #e9ecec;
+  padding: 70px 0px;
+  margin-top: 1%;
+  background: url(https://sandbox-uploads.imgix.net/u/1550641713-9317fcc649f7a8762b3cafb50b3fa6bd);
+  background-size: cover;
+}
+
+#travel-banner .heading {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+#travel-banner p {
+  color: #f8f80c;
+  font-size: 3rem;
+}
+
+#travel-banner .student-content {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 15px 25px;
+  width: 100%;
+  margin-top: 2%;
+}
+
+#travel-banner .student-content ul {
+  padding-left: 2%;
+  line-height: 3.5rem;
+}
+
+#travel-banner .student-content ul li {
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* pricing section */
+section.pricing {
+  background: #007bff;
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#eef1f1));
+  background: linear-gradient(to right, #ffffff, #eef1f1);
+  padding: 60px 0px;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  color: #131313;
+  margin-left: 0.5em;
+}
+
+.pricing .card-price {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.65rem;
+    margin-bottom: .65rem;
+    -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+/* footer css */
+.page-footer {
+  overflow: hidden;
+}
+
+.page-footer .footer-links {
+  background-color: #283137;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.page-footer .rewards-section {
+  background-color: #39424a;
+  padding-top: 20px;
+  padding-bottom: 41px;
+}
+
+.page-footer .rewards-section img {
+  max-width: 200px;
+  margin-top: 5px;
+}
+
+.page-footer .rewards-section ul li {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 3px;
+}
+
+.page-footer .rewards-section .btn {
+  border-radius: 0px;
+}
+
+.page-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.page-footer .social-section .fa {
+  top: 0 !important;
+  position: relative;
+  left: 0;
+}
+
+.page-footer .social-section ul li {
+  display: inline-block;
+}
+
+.page-footer .social-section ul li a {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.background-color {
+  background-color: #283137;
+}
+
+.pl-4 {
+  padding-left: 1.5rem !important;
+}
+
+.pt-4 {
+  padding-top: 2rem !important;
+}
+
+.pt-3 {
+  padding-top: 1rem !important;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.blue-grey-text {
+  color: #ded7d7 !important;
+  font-size: 0.95em;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.grey-text {
+  color: #cfd8dc !important;
+  font-size: 0.95em;
+}
+
+.btn-floating.btn-small i,
+.btn-floating.btn-sm i,
+.btn-floating.wishlist i {
+  font-size: 1.5rem;
+  line-height: 36.15385px;
+}
+
+.btn-fb .fa,
+.btn-gplus .fa,
+.btn-ins .fa,
+.btn-tw .fa {
+  top: -8px;
+  position: relative;
+  left: -20px;
+}
+
+.btn-floating i {
+  width: inherit;
+  font-size: 1.25rem;
+  line-height: 47px;
+  text-align: center;
+}
+
+.btn-floating,
+.btn-floating i {
+  display: inline-block;
+  color: #fff;
+}
+
+.btn-floating {
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  line-height: 35px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: #a6c;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn-fb {
+  background-color: #3b5998;
+  -webkit-box-shadow: 5px 5px 15px 0px #2e2e2e;
+  box-shadow: 5px 5px 15px 0px #2e2e2e;
+}
+
+.btn-fb:focus,
+.btn-fb:hover {
+  background-color: #4264aa;
+}
+
+.fb-ic {
+  color: #3b5998 !important;
+  -webkit-box-shadow: 5px 5px 15px 0px #2e2e2e;
+  box-shadow: 5px 5px 15px 0px #2e2e2e;
+}
+
+.fb-ic:focus,
+.fb-ic:hover {
+  color: #3b5998;
+}
+
+.btn-tw {
+  background-color: #55acee;
+  -webkit-box-shadow: 5px 5px 15px 0px #2e2e2e;
+  box-shadow: 5px 5px 15px 0px #2e2e2e;
+}
+
+.btn-tw:focus,
+.btn-tw:hover {
+  background-color: #6cb7f0;
+}
+
+.tw-ic {
+  color: #55acee !important;
+}
+
+.tw-ic:focus,
+.tw-ic:hover {
+  color: #55acee;
+}
+
+.btn-gplus {
+  background-color: #dd4b39;
+  -webkit-box-shadow: 5px 5px 15px 0px #2e2e2e;
+  box-shadow: 5px 5px 15px 0px #2e2e2e;
+}
+
+.btn-gplus:focus,
+.btn-gplus:hover {
+  background-color: #e15f4f;
+}
+
+.gplus-ic {
+  color: #dd4b39 !important;
+}
+
+.gplus-ic:focus,
+.gplus-ic:hover {
+  color: #dd4b39;
+}
+
+.btn-yt {
+  background-color: #ed302f;
+  -webkit-box-shadow: 5px 5px 15px 0px #2e2e2e;
+  box-shadow: 5px 5px 15px 0px #2e2e2e;
+}
+
+.btn-yt:focus,
+.btn-yt:hover {
+  background-color: #ef4746;
+}
+
+.yt-ic {
+  color: #ed302f !important;
+}
+
+.yt-ic:focus,
+.yt-ic:hover {
+  color: #ed302f;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #fff;
+}
+
+.skybooker-footer {
+  font: size 0.8em;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+a.black-text {
+  color: #ded7d7 !important;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #fff !important;
+}
+
+.h5-responsive {
+  font-size: 1.4em;
+}
+
+.h5-responsive a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  #travel-banner .student-content ul {
+    padding-left: 2%;
+    line-height: 3rem;
+  }
+  #travel-banner .student-content ul li {
+    font-size: 1.5rem;
+  }
+  #travel-banner .heading {
+    font-size: 3.5rem;
+    padding: 0px 25px;
+    margin: 0px;
+  }
+  #travel-banner p {
+    font-size: 2rem;
+  }
+  section.pricing {
+    padding: 30px 0px;
+  }
+  .pricing .card {
+    margin-bottom: 10%;
+  }
+  .skybooker-nav-right {
+    display: none;
+  }
+  .pl-4 {
+    padding-left: 2.7rem !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
